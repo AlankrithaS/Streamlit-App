@@ -4,11 +4,7 @@ st.set_page_config(
     page_title="My App"
 )
 
-
 st.sidebar.success("Select a page above")
-
-import streamlit as st
-
 
 # Use local CSS
 def local_css(style1):
@@ -35,6 +31,7 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
+
 def main():
     st.title("Welcome to My Streamlit App!")
 
